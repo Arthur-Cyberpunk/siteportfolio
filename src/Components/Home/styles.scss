@@ -1,72 +1,164 @@
 .home {
   background-color: #f9f9f9;
   display: flex;
+  flex-direction: column;
   height: 100vh;
+  position: relative;
   width: 100%;
 
     .containerHome{
       margin: 0 auto;
       max-width: 107rem;
-      padding: 0 20rem;
-    }
+      padding: 0 4rem;
 
-    .info {
-      align-items: center;
-      display: flex;
-      gap: 10rem;
-      height: 65rem;
-      justify-content: center;
-    }
-
-    .boxInfo {
-      align-items: center;
-      display: flex;
-      gap: 10rem;
-      justify-content: center;
-    }
-
-    .homeInfo {
-
-      h1{
-        color: #2d2e32;
-        font-size: 3.5rem;
-        line-height: 1.2;
-        margin-bottom: 2rem;
-        margin-top: 2rem;
-      }
-
-      p{
-        color: #767676;
-        font-size: 1.2rem;
-        font-weight: 500;
-        line-height: 1.6;
-      }
-
-      span{
-        cursor: pointer;
+      .info {
+        align-items: center;
         display: flex;
-        gap: 1.3rem;
-        margin: 2.5rem 0;
+        gap: 10rem;
+        height: 45rem;
+        justify-content: center;
+        position: relative;
 
-        a{
-          color: #2d2e32;
-          font-size: 3rem;
+        @media (max-width: 950px) {
+          flex-direction: column;
+          gap: 3rem;
+          //height: auto;
+          text-align: center;
+        }
+
+        .boxInfo {
+          align-items: center;
+          display: flex;
+          gap: 10rem;
+          justify-content: center;
+          position: relative;
+
+          @media (max-width: 950px) {
+            flex-direction: column-reverse;
+            gap: 3rem;
+            height: auto;
+            text-align: center;
+          }
+  
+          .homeInfo {
+            display: flex;
+            flex-direction: column;
+            max-width: 50rem;
+            position: relative;
+  
+            h1{
+              color: #2d2e32;
+              font-size: 3.0rem;
+              line-height: 1.2;
+              margin-bottom: 2rem;
+              margin-top: 2rem;
+            }
+      
+            p{
+              color: #767676;
+              font-size: 1.2rem;
+              font-weight: 500;
+              line-height: 1.6;
+
+              @media (max-width: 950px) {
+                margin-bottom: 5rem;
+              }
+            }
+      
+            span{
+              cursor: pointer;
+              display: flex;
+              gap: 1.3rem;
+              margin: 2.5rem 0;
+
+              @media (max-width: 950px) {
+                gap: 1.6rem;
+                justify-content: center;
+                margin-bottom: 4rem;
+                margin-top: -2rem;
+              }
+      
+              a{
+                color: #2d2e32;
+                font-size: 2rem;
+              }
+            }
+          }
+  
+          .profileImg{
+            -webkit-animation: morph 8s ease-in-out infinite;
+            animation: morph 8s ease-in-out infinite;
+            background-image: url(../../assets/profile.png);
+            background-position: 50%;
+            background-repeat: no-repeat;
+            background-size: cover;
+            border: 3px solid #2d2e32;
+            border-radius: 60% 40% 30% 70%/60% 30% 70% 40%;
+            height: 25rem;
+            position: relative;
+            transition: all 1s ease-in-out;
+            width: 25rem;
+          }
         }
       }
     }
 
-    .profileImg{
-      -webkit-animation: morph 8s ease-in-out infinite;
-      animation: morph 8s ease-in-out infinite;
-      background-image: url(../../assets/profile.png);
-      background-position: 50%;
-      background-repeat: no-repeat;
-      background-size: cover;
-      border: 3px solid #2d2e32;
-      border-radius: 60% 40% 30% 70%/60% 30% 70% 40%;
-      height: 25rem;
-      position: relative;
-      transition: all 1s ease-in-out;
-      width: 25rem;
+  .containerSkills {
+    align-items: center;
+    bottom: 2rem;
+    color: #767676;
+    display: flex;
+    font-size: 1.2rem;
+    left: 0;
+    position: absolute;
+
+    @media (max-width: 950px) {
+      flex-direction: column;
+      position: static;
     }
+
+    p{
+      border-right: 2px solid rgba(45,46,50,.5);
+      color: #2d2e32;
+      font-family: Mulish,sans-serif;
+      font-weight: 600;
+      margin-right: 4rem;
+      padding-right: 2rem;
+
+      @media (max-width: 950px) {
+        border-bottom: 2px solid rgba(45,46,50,.5);
+        border-right: none;
+        margin-bottom: 3rem;
+        margin-right: 0;
+        padding-bottom: 1rem;
+        padding-right: 0;
+      }
+    }
+
+    .techSkills{
+
+      ul{
+        display: flex;
+        flex-wrap: wrap;
+        gap: 2.5rem;
+        list-style: none;
+
+        @media (max-width: 950px) {
+          justify-content: center;
+        }
+
+        li{
+          align-items: center;
+          background-color: #fff;
+          border-radius: 50%;
+          box-shadow: 0 0 10px rgba(0,0,0,.09);
+          cursor: pointer;
+          display: flex;
+          height: 4.5rem;
+          justify-content: center;
+          width: 4.5rem;
+        }
+      }
+    }
+  }
 }
