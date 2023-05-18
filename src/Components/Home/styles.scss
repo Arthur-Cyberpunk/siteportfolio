@@ -6,6 +6,11 @@
   position: relative;
   width: 100%;
 
+    @media (max-width: 950px) {
+      height: auto;
+      padding: 11rem 0;
+    }
+
     .containerHome{
       margin: 0 auto;
       max-width: 107rem;
@@ -22,7 +27,7 @@
         @media (max-width: 950px) {
           flex-direction: column;
           gap: 3rem;
-          //height: auto;
+          height: auto;
           text-align: center;
         }
 
