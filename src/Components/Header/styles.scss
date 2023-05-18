@@ -1,20 +1,21 @@
-.container {
+.containerHeader {
   align-items: center;
   background-color: #fff;
   box-shadow: 0 0 10px rgba(0,0,0,.09);
   display: flex;
-  font-size: 1.7rem;
-  height: auto;
   justify-content: space-between;
-  left: 0;
+  font-size: 1.4rem;
+  width: 100%;
+  height: auto;
   padding: 25px 40px 25px 50px;
   position: fixed;
   top: 0;
-  width: 100%;
+  left: 0;
   z-index: 200;
 
   .logoName {
-
+    color: #2d2e32;
+    cursor: pointer;
   }
 
   ul {
