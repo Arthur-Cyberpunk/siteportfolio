@@ -18,6 +18,10 @@
     display: flex;
     justify-content: center;
 
+    @media (max-width: 950px) {
+      padding: 0 4rem;
+    }
+
     .info {
       align-items: center;
       display: flex;
