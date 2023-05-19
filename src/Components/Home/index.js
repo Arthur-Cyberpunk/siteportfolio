@@ -1,4 +1,9 @@
 import { GrGithub, GrLinkedin } from "react-icons/gr";
+import javascript from "../../assets/javascript.png";
+import next from "../../assets/nextjs.png";
+import react from "../../assets/react.png";
+import styled from "../../assets/styled.png";
+import typescript from "../../assets/typescript.png";
 import "./styles.scss";
 
 const Home = () => {
@@ -36,11 +41,21 @@ const Home = () => {
             <p>Tech Stack</p>
             <div className="techSkills">
               <ul>
-                <li></li>
-                <li></li>
-                <li></li>
-                <li></li>
-                <li></li>
+                <li>
+                  <img src={javascript}></img>
+                </li>
+                <li>
+                  <img src={react}></img>
+                </li>
+                <li>
+                  <img src={typescript}></img>
+                </li>
+                <li>
+                  <img src={next}></img>
+                </li>
+                <li>
+                  <img src={styled}></img>
+                </li>
               </ul>
             </div>
           </div>
