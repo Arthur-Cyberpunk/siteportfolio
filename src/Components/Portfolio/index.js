@@ -1,3 +1,4 @@
+import carro from "../../assets/carro.png";
 import "./styles.scss";
 
 const Portfolio = () => {
@@ -11,7 +12,7 @@ const Portfolio = () => {
             <div className="project">
               <div className="projectImg">
                 <a>
-                  <img></img>
+                  <img src={carro}></img>
                 </a>
               </div>
               <div className="projectText">
@@ -33,42 +34,75 @@ const Portfolio = () => {
               </div>
             </div>
             <div className="project reverse">
-              <div>
+              <div className="projectImg">
                 <a>
-                  <img></img>
+                  <img src={carro}></img>
                 </a>
               </div>
-              <div>
-                <h3></h3>
-                <p></p>
-                <div></div>
-                <div></div>
+              <div className="projectText">
+                <h3> Car Rental</h3>
+                <p>
+                  A car rental website is an online platform that allows users
+                  to rent cars for personal or business use. The website
+                  provides an interface for searching, comparing, and reserving
+                  cars.
+                </p>
+                <div className="stacks">
+                  <p>React</p>
+                  <p>SCSS</p>
+                </div>
+                <div className="links">
+                  <a>Code</a>
+                  <a>Live Demo</a>
+                </div>
               </div>
             </div>
             <div className="project">
-              <div>
+              <div className="projectImg">
                 <a>
-                  <img></img>
+                  <img src={carro}></img>
                 </a>
               </div>
-              <div>
-                <h3></h3>
-                <p></p>
-                <div></div>
-                <div></div>
+              <div className="projectText">
+                <h3> Car Rental</h3>
+                <p>
+                  A car rental website is an online platform that allows users
+                  to rent cars for personal or business use. The website
+                  provides an interface for searching, comparing, and reserving
+                  cars.
+                </p>
+                <div className="stacks">
+                  <p>React</p>
+                  <p>SCSS</p>
+                </div>
+                <div className="links">
+                  <a>Code</a>
+                  <a>Live Demo</a>
+                </div>
               </div>
             </div>
             <div className="project reverse">
-              <div>
+              <div className="projectImg">
                 <a>
-                  <img></img>
+                  <img src={carro}></img>
                 </a>
               </div>
-              <div>
-                <h3></h3>
-                <p></p>
-                <div></div>
-                <div></div>
+              <div className="projectText">
+                <h3> Car Rental</h3>
+                <p>
+                  A car rental website is an online platform that allows users
+                  to rent cars for personal or business use. The website
+                  provides an interface for searching, comparing, and reserving
+                  cars.
+                </p>
+                <div className="stacks">
+                  <p>React</p>
+                  <p>SCSS</p>
+                </div>
+                <div className="links">
+                  <a>Code</a>
+                  <a>Live Demo</a>
+                </div>
               </div>
             </div>
           </div>
