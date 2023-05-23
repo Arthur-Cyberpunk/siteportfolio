@@ -1,0 +1,39 @@
+footer {
+  background-color: #2d2e32;
+  width: 100%;
+  padding: 2rem 20%;
+
+  .container {
+    // margin: 0 auto;
+    // max-width: 107rem;
+    // padding: 0 4rem;
+
+    .footerContent {
+      align-items: center;
+      display: flex;
+      justify-content: space-between;
+
+      @media (max-width: 800px) {
+        flex-wrap: wrap;
+        gap: 2rem;
+        justify-content: center;
+        text-align: center;
+      }
+
+      h3 {
+        color: #fff;
+        font-size: 1.2rem;
+      }
+
+      .footerSocial {
+        display: flex;
+        gap: 2rem;
+
+        a {
+            color: #fff;
+            font-size: 2rem;
+        }
+      }
+    }
+  }
+}
