@@ -1,3 +1,5 @@
+import { BsBoxArrowUpRight } from "react-icons/bs";
+import { GrGithub } from "react-icons/gr";
 import carro from "../../assets/carro.png";
 import "./styles.scss";
 
@@ -28,8 +30,14 @@ const Portfolio = () => {
                   <p>SCSS</p>
                 </div>
                 <div className="links">
-                  <a>Code</a>
-                  <a>Live Demo</a>
+                  <a>
+                    Code
+                    <GrGithub className="iconGit" />
+                  </a>
+                  <a>
+                    Live Demo
+                    <BsBoxArrowUpRight className="iconDemo" />
+                  </a>
                 </div>
               </div>
             </div>
@@ -52,8 +60,14 @@ const Portfolio = () => {
                   <p>SCSS</p>
                 </div>
                 <div className="links">
-                  <a>Code</a>
-                  <a>Live Demo</a>
+                  <a>
+                    Code
+                    <GrGithub className="iconGit" />
+                  </a>
+                  <a>
+                    Live Demo
+                    <BsBoxArrowUpRight className="iconDemo" />
+                  </a>
                 </div>
               </div>
             </div>
@@ -76,8 +90,14 @@ const Portfolio = () => {
                   <p>SCSS</p>
                 </div>
                 <div className="links">
-                  <a>Code</a>
-                  <a>Live Demo</a>
+                  <a>
+                    Code
+                    <GrGithub className="iconGit" />
+                  </a>
+                  <a>
+                    Live Demo
+                    <BsBoxArrowUpRight className="iconDemo" />
+                  </a>
                 </div>
               </div>
             </div>
@@ -100,8 +120,14 @@ const Portfolio = () => {
                   <p>SCSS</p>
                 </div>
                 <div className="links">
-                  <a>Code</a>
-                  <a>Live Demo</a>
+                  <a>
+                    Code
+                    <GrGithub className="iconGit" />
+                  </a>
+                  <a>
+                    Live Demo
+                    <BsBoxArrowUpRight className="iconDemo" />
+                  </a>
                 </div>
               </div>
             </div>

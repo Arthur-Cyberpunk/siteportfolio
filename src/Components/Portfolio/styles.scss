@@ -60,7 +60,7 @@
           box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
           display: flex;
 
-          @media (max-width: 1800px) {
+          @media (max-width: 1600px) {
             gap: 3rem;
           }
 
@@ -87,6 +87,7 @@
             }
 
             a img {
+              height: 100%;
               width: 100%;
             }
           }
@@ -143,18 +144,27 @@
               display: flex;
               align-items: center;
 
+              :hover {
+                color: #147efb;
+                transition: all 0.5s ease-in-out;
+              }
+
               a {
                 color: #2d2e32;
-                font-size: 1.2rem;
+                font-size: 1.5rem;
                 font-weight: 500;
                 gap: 5px;
-                text-decoration: none;
+                cursor: pointer;
 
                 display: flex;
                 align-items: center;
 
-                i {
-                  font-size: 2.8rem;
+                .iconGit {
+                  font-size: 2rem;
+                }
+
+                .iconDemo {
+                  font-size: 1.6rem;
                 }
               }
             }
