@@ -3,7 +3,7 @@ import { BsXLg } from "react-icons/bs";
 import { CgMenuRightAlt } from "react-icons/cg";
 import "./styles.scss";
 
-const Header = () => {
+const Header = (props) => {
   const [menu_class, setMenuClass] = useState("menu hidden");
   const [isMenuClicked, setIsMenuClicked] = useState(false);
 
@@ -16,26 +16,33 @@ const Header = () => {
     setIsMenuClicked(!isMenuClicked);
   };
 
+  const goScrollSection = (elementRef) => {
+    window.scrollTo({ 
+    top: elementRef.current.offsetTop,
+    behavior: 'smooth',
+  })
+  }
+
   return (
     <nav className="containerHeader">
       <h3 className="logoName">Arthur.dev</h3>
       <ul>
-        <li>
+        <li onClick={() => goScrollSection(props.home)}>
           <a className="options" href="#home">
             Home
           </a>
         </li>
-        <li>
+        <li onClick={() => goScrollSection(props.about)}>
           <a className="options" href="#about">
             About
           </a>
         </li>
-        <li>
+        <li onClick={() => goScrollSection(props.portfolioo)}>
           <a className="options" href="#projects">
             Projects
           </a>
         </li>
-        <li>
+        <li onClick={() => goScrollSection(props.contact)}>
           <a className="options" href="#contact">
             Contact
           </a>
