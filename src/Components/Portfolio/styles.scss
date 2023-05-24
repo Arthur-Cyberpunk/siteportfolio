@@ -81,6 +81,10 @@
             overflow: hidden;
             width: 35rem;
 
+            @media (max-width: 1400px) {
+              width: 25rem;
+            }
+
             @media (max-width: 1020px) {
               height: 100%;
               width: 100%;
@@ -108,9 +112,13 @@
             h3 {
               color: #2d2e32;
               font-size: 1.2rem;
-              margin-bottom: 2rem;
+              margin-bottom: 3rem;
               position: relative;
               text-transform: uppercase;
+
+              @media (max-width: 1400px) {
+                margin-bottom: 1rem;
+              }
             }
 
             p {
@@ -144,6 +152,10 @@
               display: flex;
               align-items: center;
 
+              @media (max-width: 1400px) {
+                margin-top: 1rem;
+              }
+
               :hover {
                 color: #147efb;
                 transition: all 0.5s ease-in-out;
@@ -151,7 +163,7 @@
 
               a {
                 color: #2d2e32;
-                font-size: 1.5rem;
+                font-size: 1.2rem;
                 font-weight: 500;
                 gap: 5px;
                 cursor: pointer;
@@ -160,11 +172,11 @@
                 align-items: center;
 
                 .iconGit {
-                  font-size: 2rem;
+                  font-size: 1.8rem;
                 }
 
                 .iconDemo {
-                  font-size: 1.6rem;
+                  font-size: 1.4rem;
                 }
               }
             }
