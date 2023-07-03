@@ -1,4 +1,4 @@
-<div align='center'><img style="width:30%" src='![controle](https://github.com/Arthur-Cyberpunk/siteportfolio/assets/72763456/198b8b61-12e2-4f81-99b6-8cee88fa3dcb)'/></div>
+<div align='center'><img style="width:30%" src='https://github.com/Arthur-Cyberpunk/siteportfolio/assets/72763456/198b8b61-12e2-4f81-99b6-8cee88fa3dcb'/></div>
 
 <h2>About the project</h2>
 
@@ -16,6 +16,6 @@
 <h3 align='center'>Home Page 🏡</h3>
 
 <div align='center'>
-<img src='![portfolio](https://github.com/Arthur-Cyberpunk/siteportfolio/assets/72763456/a0e124c2-a410-4dd5-8e10-f2437637575c)'/>
+<img src='https://github.com/Arthur-Cyberpunk/siteportfolio/assets/72763456/a0e124c2-a410-4dd5-8e10-f2437637575c'/>
 
 </div>
