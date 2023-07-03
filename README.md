@@ -1,4 +1,4 @@
-<div align='center'><img style="width:30%" src='https://github.com/Arthur-Cyberpunk/siteportfolio/assets/72763456/198b8b61-12e2-4f81-99b6-8cee88fa3dcb'/></div>
+<div align='center'><img style="width:30%" src='https://github.com/Arthur-Cyberpunk/siteportfolio/assets/72763456/d60d9893-10dc-4f1c-b220-35c5b3f46e96'/></div>
 
 <h2>About the project</h2>
 
