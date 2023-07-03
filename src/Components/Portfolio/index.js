@@ -1,6 +1,6 @@
 import { BsBoxArrowUpRight } from "react-icons/bs";
 import { GrGithub } from "react-icons/gr";
-import carro from "../../assets/carro.png";
+import irongames from "../../assets/irongames.png";
 import "./styles.scss";
 
 const Portfolio = () => {
@@ -13,8 +13,12 @@ const Portfolio = () => {
           <div className="projectsGrid">
             <div className="project">
               <div className="projectImg">
-                <a>
-                  <img src={carro}></img>
+                <a
+                  target="_blank"
+                  href="https://irongames-rho.vercel.app/"
+                  rel="noreferrer"
+                >
+                  <img src={irongames} alt="Iron Games"></img>
                 </a>
               </div>
               <div className="projectText">
@@ -30,21 +34,21 @@ const Portfolio = () => {
                   <p>SCSS</p>
                 </div>
                 <div className="links">
-                  <a>
+                  <a href="https://github.com/Arthur-Cyberpunk">
                     Code
                     <GrGithub className="iconGit" />
                   </a>
-                  <a>
+                  <a href="https://irongames-rho.vercel.app/">
                     Live Demo
                     <BsBoxArrowUpRight className="iconDemo" />
                   </a>
                 </div>
               </div>
             </div>
-            <div className="project reverse">
+            {/* <div className="project reverse">
               <div className="projectImg">
-                <a>
-                  <img src={carro}></img>
+                <a href="/">
+                  <img src={carro} alt="car"></img>
                 </a>
               </div>
               <div className="projectText">
@@ -60,20 +64,20 @@ const Portfolio = () => {
                   <p>SCSS</p>
                 </div>
                 <div className="links">
-                  <a>
+                  <a href="/">
                     Code
                     <GrGithub className="iconGit" />
                   </a>
-                  <a>
+                  <a href="/">
                     Live Demo
                     <BsBoxArrowUpRight className="iconDemo" />
                   </a>
                 </div>
               </div>
-            </div>
-            <div className="project">
+            </div> */}
+            {/* <div className="project">
               <div className="projectImg">
-                <a>
+                <a href="/">
                   <img src={carro}></img>
                 </a>
               </div>
@@ -90,20 +94,20 @@ const Portfolio = () => {
                   <p>SCSS</p>
                 </div>
                 <div className="links">
-                  <a>
+                  <a href="/">
                     Code
                     <GrGithub className="iconGit" />
                   </a>
-                  <a>
+                  <a href="/">
                     Live Demo
                     <BsBoxArrowUpRight className="iconDemo" />
                   </a>
                 </div>
               </div>
-            </div>
-            <div className="project reverse">
+            </div> */}
+            {/* <div className="project reverse">
               <div className="projectImg">
-                <a>
+                <a href="/">
                   <img src={carro}></img>
                 </a>
               </div>
@@ -120,17 +124,17 @@ const Portfolio = () => {
                   <p>SCSS</p>
                 </div>
                 <div className="links">
-                  <a>
+                  <a href="/">
                     Code
                     <GrGithub className="iconGit" />
                   </a>
-                  <a>
+                  <a href="/">
                     Live Demo
                     <BsBoxArrowUpRight className="iconDemo" />
                   </a>
                 </div>
               </div>
-            </div>
+            </div> */}
           </div>
         </div>
       </div>
