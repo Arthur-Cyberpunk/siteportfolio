@@ -34,11 +34,19 @@ const Portfolio = () => {
                   <p>SCSS</p>
                 </div>
                 <div className="links">
-                  <a href="https://github.com/Arthur-Cyberpunk">
+                  <a
+                    target="_blank"
+                    href="https://github.com/Arthur-Cyberpunk"
+                    rel="noreferrer"
+                  >
                     Code
                     <GrGithub className="iconGit" />
                   </a>
-                  <a href="https://irongames-rho.vercel.app/">
+                  <a
+                    target="_blank"
+                    href="https://irongames-rho.vercel.app/"
+                    rel="noreferrer"
+                  >
                     Live Demo
                     <BsBoxArrowUpRight className="iconDemo" />
                   </a>
