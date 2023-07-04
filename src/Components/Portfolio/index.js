@@ -22,12 +22,11 @@ const Portfolio = () => {
                 </a>
               </div>
               <div className="projectText">
-                <h3> Car Rental</h3>
+                <h3> Video game store</h3>
                 <p>
                   A video game store website is an online platform that allows
                   users to buy video games. The website provides an easy-to-use
-                  interface for searching, comparing, video games from a wide
-                  selection of games that vary in make, model, and price.
+                  interface for searching, comparing, video games.
                 </p>
                 <div className="stacks">
                   <p>React</p>
