@@ -24,10 +24,10 @@ const Portfolio = () => {
               <div className="projectText">
                 <h3> Car Rental</h3>
                 <p>
-                  A car rental website is an online platform that allows users
-                  to rent cars for personal or business use. The website
-                  provides an interface for searching, comparing, and reserving
-                  cars.
+                  A video game store website is an online platform that allows
+                  users to buy video games. The website provides an easy-to-use
+                  interface for searching, comparing, video games from a wide
+                  selection of games that vary in make, model, and price.
                 </p>
                 <div className="stacks">
                   <p>React</p>
