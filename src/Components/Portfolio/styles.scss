@@ -1,6 +1,6 @@
 .portfolio {
   background-color: #f9f9f9;
-  padding: 10rem 20%;
+  padding: 10rem 0;
   width: 100%;
 
   @media (max-width: 1020px) {
@@ -12,9 +12,8 @@
   }
 
   .container {
-    // margin: 0 auto;
-    // max-width: 107rem;
-    // padding: 0 4rem;
+    margin: 0 auto;
+    max-width: 80rem;
 
     .projectContent {
       display: flex;
@@ -40,18 +39,13 @@
       }
 
       .projectsGrid {
-        // grid-gap: 5rem;
-        // display: grid;
-        // gap: 5rem;
-        // grid-template-columns: 1fr;
-        // grid-template-rows: auto auto;
-        // height: auto;
-        // width: 100%;
+        width: 100%;
 
         .project {
           flex-direction: row;
           gap: 8rem;
-          height: 26rem;
+          height: 30rem;
+          width: 100%;
           padding: 2rem;
           margin-bottom: 2rem;
 
@@ -60,17 +54,10 @@
           box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
           display: flex;
 
-          @media (max-width: 1600px) {
-            gap: 3rem;
-          }
-
           @media (max-width: 1020px) {
+            gap: 2rem;
             flex-direction: column;
             height: auto;
-          }
-
-          .reverse {
-            flex-direction: row-reverse;
           }
 
           .projectImg {
@@ -79,11 +66,7 @@
             box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
             height: auto;
             overflow: hidden;
-            width: 35rem;
-
-            @media (max-width: 1400px) {
-              width: 25rem;
-            }
+            width: 40rem;
 
             @media (max-width: 1020px) {
               height: 100%;
@@ -103,11 +86,10 @@
             height: auto;
             justify-content: center;
             text-align: center;
-            width: 20rem;
+            width: 25rem;
 
             @media (max-width: 1020px) {
               width: 100%;
-              margin: 0 auto;
             }
 
             h3 {
@@ -135,7 +117,12 @@
               display: flex;
               gap: 1rem;
               justify-content: center;
+              align-items: center;
               margin-top: 1rem;
+
+              @media (max-width: 500px) {
+                flex-direction: column;
+              }
 
               p {
                 background-color: #fff;
@@ -183,7 +170,15 @@
             }
           }
         }
+        .reverse {
+          flex-direction: row-reverse;
+
+          @media (max-width: 1020px) {
+            flex-direction: column;
+          }
+        }
       }
     }
   }
+  
 }
