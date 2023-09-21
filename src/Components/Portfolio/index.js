@@ -1,6 +1,7 @@
 import { BsBoxArrowUpRight } from "react-icons/bs";
 import { GrGithub } from "react-icons/gr";
 import blessedfood from "../../assets/blessedfood.png";
+import hexachallenge from "../../assets/hexachallenge.png";
 import irongames from "../../assets/irongames.png";
 import "./styles.scss";
 
@@ -23,7 +24,7 @@ const Portfolio = () => {
                 </a>
               </div>
               <div className="projectText">
-                <h3> Video game store</h3>
+                <h3>Video game store</h3>
                 <p>
                   A video game store website is an online platform that allows
                   users to buy video games. The website provides an easy-to-use
@@ -60,7 +61,7 @@ const Portfolio = () => {
                 </a>
               </div>
               <div className="projectText">
-                <h3> Blessed Food</h3>
+                <h3>Blessed Food</h3>
                 <p>
                   A website about food/meals. In it, the user can search for a
                   certain type of food and see its ingredients and what is in
@@ -82,6 +83,47 @@ const Portfolio = () => {
                   <a
                     target="_blank"
                     href="https://blessed-food.vercel.app/"
+                    rel="noreferrer"
+                  >
+                    Live Demo
+                    <BsBoxArrowUpRight className="iconDemo" />
+                  </a>
+                </div>
+              </div>
+            </div>
+            <div className="project">
+              <div className="projectImg">
+                <a
+                  target="_blank"
+                  href="https://hexa-challenge.vercel.app/"
+                  rel="noreferrer"
+                >
+                  <img src={hexachallenge} alt="Hexa Challenge"></img>
+                </a>
+              </div>
+              <div className="projectText">
+                <h3>Game Color</h3>
+                <p>
+                  A game color, that appear the color in the screen and you have
+                  to choose the right hexadecimal color.
+                </p>
+                <div className="stacks">
+                  <p>React</p>
+                  <p>Context Api</p>
+                  <p>Router</p>
+                </div>
+                <div className="links">
+                  <a
+                    target="_blank"
+                    href="https://github.com/Arthur-Cyberpunk/hexa_challenge"
+                    rel="noreferrer"
+                  >
+                    Code
+                    <GrGithub className="iconGit" />
+                  </a>
+                  <a
+                    target="_blank"
+                    href="https://hexa-challenge.vercel.app/"
                     rel="noreferrer"
                   >
                     Live Demo
