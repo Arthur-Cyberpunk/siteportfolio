@@ -105,7 +105,8 @@ const Portfolio = () => {
                 <h3>Game Color</h3>
                 <p>
                   A game color, that appear the color in the screen and you have
-                  to choose the right hexadecimal color.
+                  to choose the right hexadecimal color, is not responsive,
+                  depending your screen's size, things get out of place.
                 </p>
                 <div className="stacks">
                   <p>React</p>
