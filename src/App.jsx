@@ -11,18 +11,10 @@ function App() {
   return (
     <div>
       <Header />
-      
-        <Home />
-      
-      
-        <About />
-      
-      
-        <Portfolio />
-      
-      
-        <Contact />
-      
+        <Home />          
+        <About />        
+        <Portfolio />    
+        <Contact />  
       <Footer />
     </div>
   );

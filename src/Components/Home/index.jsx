@@ -12,7 +12,7 @@ import "./styles.scss";
 
 const Home = () => {
   return (
-    <section className="home">
+    <section className="home" id="home">
       <div className="container">
         <div className="containerHome">
           <div className="info">

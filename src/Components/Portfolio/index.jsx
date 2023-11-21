@@ -8,7 +8,7 @@ import "./styles.scss";
 
 const Portfolio = () => {
   return (
-    <section className="portfolio">
+    <section className="portfolio" id="projects">
       <div className="container">
         <div className="projectContent">
           <p>Portfolio</p>
