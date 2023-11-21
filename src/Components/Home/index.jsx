@@ -1,7 +1,11 @@
 import { GrGithub, GrLinkedin } from "react-icons/gr";
+import css from "../../assets/css.png";
+import html from "../../assets/html.png";
 import javascript from "../../assets/javascript.png";
-import next from "../../assets/nextjs.png";
+import nodejs from "../../assets/nodejs.png";
 import react from "../../assets/react.png";
+import redux from "../../assets/redux.png";
+import sass from "../../assets/sass.png";
 import styled from "../../assets/styled.png";
 import typescript from "../../assets/typescript.png";
 import "./styles.scss";
@@ -43,19 +47,31 @@ const Home = () => {
               <div className="techSkills">
                 <ul>
                   <li>
-                    <img src={javascript}></img>
+                    <img src={html}></img>
                   </li>
                   <li>
-                    <img src={react}></img>
+                    <img src={css}></img>
+                  </li>
+                  <li>
+                    <img src={javascript}></img>
                   </li>
                   <li>
                     <img src={typescript}></img>
                   </li>
                   <li>
-                    <img src={next}></img>
+                    <img src={react}></img>
+                  </li>
+                  <li>
+                    <img src={nodejs}></img>
+                  </li>
+                  <li>
+                    <img src={redux}></img>
                   </li>
                   <li>
                     <img src={styled}></img>
+                  </li>
+                  <li>
+                    <img src={sass}></img>
                   </li>
                 </ul>
               </div>

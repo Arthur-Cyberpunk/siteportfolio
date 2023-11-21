@@ -137,6 +137,10 @@
             gap: 2.5rem;
             list-style: none;
 
+            @media (max-width: 900px) {
+              justify-content: center;
+            }
+
             li {
               align-items: center;
               background-color: #fff;
