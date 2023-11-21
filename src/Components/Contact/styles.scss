@@ -1,89 +1,90 @@
 .contact {
-    background-color: #fff;
-    padding: 10rem 0;
-    width: 100%;
+  background-color: #fff;
+  padding: 10rem 0;
+  width: 100%;
 
-    @media (max-width: 1020px) {
-        //padding: 8rem 10%;
+  .contactContent {
+    display: flex;
+    flex-direction: column;
+
+    @media (max-width: 900px) {
+      align-items: center;
+    }
+
+    .contactTitle {
+
+      @media (max-width: 900px) {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+      }
+      p {
+        color: #147efb;
+        font-size: 2rem;
+        font-weight: 700;
+        margin-bottom: 1rem;
+        text-transform: uppercase;
       }
 
-        .contactContent {
-            display: flex;
-            flex-direction: column;
-
-            @media (max-width: 1020px) {
-                align-items: center;
-              }
-
-            .contactTitle {
-
-                p {
-                    color: #147efb;
-                    font-size: 2rem;
-                    font-weight: 700;
-                    margin-bottom: 1rem;
-                    text-transform: uppercase;
-                }
-
-                h3 {
-                    color: #2d2e32;
-                    font-size: 2rem;
-                }
-            }
-        }
-
-        .contactIcons {
-            display: flex;
-            gap: 8rem;
-            margin-top: 6rem;
-
-            @media (max-width: 1020px) {
-                flex-direction: column;
-              }
-
-            .contactIconBox {
-                align-items: center;
-                display: flex;
-                gap: 1.5rem;
-
-                @media (max-width: 1020px) {
-                    flex-direction: column;
-                  }
-
-                span {
-                    background-color: #fff;
-                    border-radius: 50%;
-                    box-shadow: 0 0 10px rgba(0,0,0,.1);
-                    padding: 1.4rem;
-
-                    .icons {
-                        color: #147efb;
-                        font-size: 2.2rem;
-                    }
-                }
-
-                .contactInfo {
-                    display: flex;
-                    flex-direction: column;
-                    gap: 0.5rem;
-
-                    @media (max-width: 1020px) {
-                        flex-direction: column;
-                        align-items: center;
-                      }
-
-                    h3 {
-                        color: #2d2e32;
-                        font-size: 1.8rem;
-                    }
-
-                    p {
-                        color: #767676;
-                        cursor: pointer;
-                        font-size: 1.8rem;
-                        text-decoration: none;
-                    }
-                }
-            }
-        }
+      h3 {
+        color: #2d2e32;
+        font-size: 2rem;
+      }
     }
+  }
+
+  .contactIcons {
+    display: flex;
+    gap: 8rem;
+    margin-top: 6rem;
+
+    @media (max-width: 900px) {
+      flex-direction: column;
+    }
+
+    .contactIconBox {
+      align-items: center;
+      display: flex;
+      gap: 1.5rem;
+
+      @media (max-width: 900px) {
+        flex-direction: column;
+      }
+
+      span {
+        background-color: #fff;
+        border-radius: 50%;
+        box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+        padding: 1.4rem;
+
+        .icons {
+          color: #147efb;
+          font-size: 2.2rem;
+        }
+      }
+
+      .contactInfo {
+        display: flex;
+        flex-direction: column;
+        gap: 0.5rem;
+
+        @media (max-width: 900px) {
+          flex-direction: column;
+          align-items: center;
+        }
+
+        h3 {
+          color: #2d2e32;
+          font-size: 1.8rem;
+        }
+
+        p {
+          color: #767676;
+          cursor: pointer;
+          font-size: 1.8rem;
+          text-decoration: none;
+        }
+      }
+    }
+  }
+}

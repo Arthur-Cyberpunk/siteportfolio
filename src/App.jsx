@@ -1,4 +1,3 @@
-import { useRef } from "react";
 import About from "./Components/About";
 import Contact from "./Components/Contact";
 import Footer from "./Components/Footer";
@@ -8,26 +7,22 @@ import Portfolio from "./Components/Portfolio";
 import "./styles/globals.scss";
 
 function App() {
-  const home = useRef();
-  const about = useRef();
-  const portfolioo = useRef();
-  const contact = useRef();
 
   return (
     <div>
-      <Header home={home} about={about} portfolioo={portfolioo} contact={contact} />
-      <div ref={home}>
+      <Header />
+      
         <Home />
-      </div>
-      <div ref={about}>
+      
+      
         <About />
-      </div>
-      <div ref={portfolioo}>
+      
+      
         <Portfolio />
-      </div>
-      <div ref={contact}>
+      
+      
         <Contact />
-      </div>
+      
       <Footer />
     </div>
   );

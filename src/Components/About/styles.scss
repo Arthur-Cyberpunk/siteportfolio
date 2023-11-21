@@ -3,44 +3,31 @@
   width: 100%;
   padding: 8rem 0;
 
-  @media (max-width: 1500px) {
-    //padding: 8rem 4%;
-  }
-
   .containerAbout {
     display: grid;
     grid-template-columns: repeat(2, 1fr);
-    //gap: 1rem;
     align-items: center;
 
-    @media (max-width: 1020px) {
+    @media (max-width: 900px) {
       grid-template-columns: 1fr;
       text-align: center;
     }
 
     .imageSide {
       display: flex;
-      //justify-content: center;
+
+      @media (max-width: 900px) {
+        justify-content: center;
+        margin-bottom: 2rem;
+      }
 
       .mainImg {
         border-radius: 1.7rem;
-        //height: 23rem;
         width: 80%;
-
-        @media (max-width: 1020px) {
-          //margin-bottom: 2.0rem;
-          //height: 13rem;
-          //width: 20rem;
-        }
       }
     }
 
     .textSide {
-
-        @media (max-width: 1020px) {
-            margin: 0 auto;
-            max-width: 54rem;
-        }
       h4 {
         color: #147efb;
         font-size: 2rem;

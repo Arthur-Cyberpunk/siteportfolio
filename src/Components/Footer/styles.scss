@@ -3,32 +3,31 @@ footer {
   width: 100%;
   padding: 2rem 0;
 
-    .footerContent {
-      align-items: center;
+  .footerContent {
+    align-items: center;
+    display: flex;
+    justify-content: space-between;
+
+    @media (max-width: 800px) {
+      flex-wrap: wrap;
+      gap: 2rem;
+      justify-content: center;
+      text-align: center;
+    }
+
+    h3 {
+      color: #fff;
+      font-size: 1.8rem;
+    }
+
+    .footerSocial {
       display: flex;
-      justify-content: space-between;
+      gap: 2rem;
 
-      @media (max-width: 800px) {
-        flex-wrap: wrap;
-        gap: 2rem;
-        justify-content: center;
-        text-align: center;
-      }
-
-      h3 {
+      a {
         color: #fff;
-        font-size: 1.8rem;
-      }
-
-      .footerSocial {
-        display: flex;
-        gap: 2rem;
-
-        a {
-            color: #fff;
-            font-size: 2rem;
-        }
+        font-size: 2rem;
       }
     }
   }
-
+}
