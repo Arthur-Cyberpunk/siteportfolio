@@ -113,6 +113,7 @@ const Portfolio = () => {
                   <p>React</p>
                   <p>Redux</p>
                   <p>Nodejs</p>
+                  <p>AWS</p>
                 </div>
                 <div className="links">
                   <a
