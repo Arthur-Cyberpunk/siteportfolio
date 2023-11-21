@@ -2,6 +2,7 @@ import { BsBoxArrowUpRight } from "react-icons/bs";
 import { GrGithub } from "react-icons/gr";
 import blessedfood from "../../assets/blessedfood.png";
 import hexachallenge from "../../assets/hexachallenge.png";
+import home from "../../assets/home.png";
 import irongames from "../../assets/irongames.png";
 import "./styles.scss";
 
@@ -98,7 +99,7 @@ const Portfolio = () => {
                   href="https://hexa-challenge.vercel.app/"
                   rel="noreferrer"
                 >
-                  <img src={hexachallenge} alt="Hexa Challenge"></img>
+                  <img src={home} alt="Hexa Challenge"></img>
                 </a>
               </div>
               <div className="projectText">
@@ -110,8 +111,8 @@ const Portfolio = () => {
                 </p>
                 <div className="stacks">
                   <p>React</p>
-                  <p>Context Api</p>
-                  <p>Router</p>
+                  <p>Redux</p>
+                  <p>Nodejs</p>
                 </div>
                 <div className="links">
                   <a
@@ -133,36 +134,36 @@ const Portfolio = () => {
                 </div>
               </div>
             </div>
-            {/* <div className="project">
+            <div className="project reverse">
               <div className="projectImg">
-                <a href="/">
-                  <img src={carro}></img>
+                <a href="https://hexa-challenge.vercel.app/">
+                  <img src={hexachallenge} alt="Hexa Challenge"></img>
                 </a>
               </div>
               <div className="projectText">
-                <h3> Car Rental</h3>
+                <h3>Game Color</h3>
                 <p>
-                  A car rental website is an online platform that allows users
-                  to rent cars for personal or business use. The website
-                  provides an interface for searching, comparing, and reserving
-                  cars.
+                  A game color, that appear the color in the screen and you have
+                  to choose the right hexadecimal color, it is not responsive,
+                  depending your screen's size, things get out of place.
                 </p>
                 <div className="stacks">
                   <p>React</p>
-                  <p>SCSS</p>
+                  <p>Context Api</p>
+                  <p>Router</p>
                 </div>
                 <div className="links">
-                  <a href="/">
+                  <a href="https://github.com/Arthur-Cyberpunk/hexa_challenge">
                     Code
                     <GrGithub className="iconGit" />
                   </a>
-                  <a href="/">
+                  <a href="https://hexa-challenge.vercel.app/">
                     Live Demo
                     <BsBoxArrowUpRight className="iconDemo" />
                   </a>
                 </div>
               </div>
-            </div> */}
+            </div>
             {/* <div className="project reverse">
               <div className="projectImg">
                 <a href="/">
