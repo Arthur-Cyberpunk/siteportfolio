@@ -96,7 +96,7 @@ const Portfolio = () => {
               <div className="projectImg">
                 <a
                   target="_blank"
-                  href="https://hexa-challenge.vercel.app/"
+                  href="https://ilumina-ecommerce.vercel.app/"
                   rel="noreferrer"
                 >
                   <img src={home} alt="Hexa Challenge"></img>
@@ -118,7 +118,7 @@ const Portfolio = () => {
                 <div className="links">
                   <a
                     target="_blank"
-                    href="https://github.com/Arthur-Cyberpunk/hexa_challenge"
+                    href="https://github.com/Arthur-Cyberpunk/ilumina_ecommerce"
                     rel="noreferrer"
                   >
                     Code
@@ -126,7 +126,7 @@ const Portfolio = () => {
                   </a>
                   <a
                     target="_blank"
-                    href="https://hexa-challenge.vercel.app/"
+                    href="https://ilumina-ecommerce.vercel.app/"
                     rel="noreferrer"
                   >
                     Live Demo
