@@ -103,7 +103,7 @@ const Portfolio = () => {
                 </a>
               </div>
               <div className="projectText">
-                <h3>Game Color</h3>
+                <h3>Ilumina Ecommerce</h3>
                 <p>
                   A game color, that appear the color in the screen and you have
                   to choose the right hexadecimal color, it is not responsive,
